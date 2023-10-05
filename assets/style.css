@@ -8,7 +8,6 @@ html {
 }
 
 nav {
-    /* background-color: #4e4e4e; */
     background-image: linear-gradient(to right, #4e4e4e, lightgray);
     color: gold;
     margin: 0;
@@ -46,19 +45,33 @@ nav ul {
 }
 
 body {
-    /* background-color: lightgray; */
     background-image: linear-gradient(to right, lightgray, #fff);
     margin: 0;
 }
 
 img {
-    width: 300px;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+.imgAvatar {
+    width: 350px;
+    height: 175px;
 }
 
 .img1 {
     width: 600px;
     height: 300px;
+}
+
+.img2 {
+    width: 300px;
+    height: 150px;
+}
+
+.img1 , .img2 {
+    border-radius: 15%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .container {
@@ -80,13 +93,6 @@ img {
 }
 
 .content {
-    flex: 5;
+    flex: 4;
     padding: 10px;
-}
-
-
-
-
-@media (max-width: 768px) {
-    
 }
